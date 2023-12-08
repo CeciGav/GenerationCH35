@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+#divGeneral{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    padding: .5%;
+}
+#divCabecera{
+    background-color: blueviolet;
+    width: 99%;
+    height: 24%;
+}
+#divCuerpo{
+    background-color: chocolate;
+    width: 99%;
+    height: 59%;
+}
+#divFooter{
+    background-color: blueviolet;
+    width: 99%;
+    height: 14%;
+}
+#dcIzquierda{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: coral;
+}
+#dcIzquierda img{
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+#dcDerecha{
+    float: right;
+    width: 28%;
+    height: 100%;
+    text-align: center;
+    background-color: bisque;
+}
+#dcDerecha img{
+    text-align: center;
+    width: 35%;
+    height: 45%;
+}
+.numeros{
+    width: 40px;
+    min-width: 30px;
+    max-width: 100px;
+}
+#datosPersonales{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(255, 0, 204);
+}
+#referencias{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 30, 255);
+}
+#historialMascotas{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(255, 0, 204);
+}
+#razonesAdoptar{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 30, 255);
+}

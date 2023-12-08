@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./Assets/styles/styles.css">
+</head>
+<body>
+    <form action="formularioAdopcion"></form>
+    <div id="divGeneral">
+
+        <div id="divCabecera">
+            <div id="dcIzquierda">
+                <p>
+                    Formulario de adopcion
+                </p>
+                <img src="./img/Perrito.png" alt="Perrito">
+            </div>
+            <div id="dcDerecha">
+                <br>
+                <img src="./img/huella.png" alt="LogoHuellita"><br><br><br>
+                <label for="nFormulario">N. Formulario: 
+                    <input class="numeros" type="number" name="nFormulario" id="nFormulario" min="10px">
+                </label><br>
+                <label for="fecha">Fecha
+                    <input type="date" name="fecha" id="fecha">
+                </label>
+            </div>
+        </div>
+        <div id="divCuerpo">
+            <div id="datosPersonales">
+                <h2>Datos personales</h2>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion">
+                <label for="fechaNacimiento">Fecha de nacimiento: </label>
+                <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+                <label for="correo">Correo: </label>
+                <input type="email" name="correo" id="correo"><br><br>
+                <label for="telefonoCelular">Telefono Celular: </label>
+                <input type="tel" name="telefonoCelular" id="telefonoCelular">
+                <label for="ocupacion">Ocupacion: </label>
+                <input type="text" name="ocupacion" id="ocupacion">
+            </div>
+            <div id="referencias">
+                <h2>Referencias</h2>
+                <label for="referenciaPersonal">Referencia personal</label>
+                <input type="text" name="referenciaPersonal" id="referenciaPersonal">
+                <label for="telefonoReferenciaP">Telefono: </label>
+                <input type="tel" name="telefonoReferenciaP" id="telefonoReferenciaP">
+                <label for="relacionP">Relacion: </label>
+                <input type="text" name="relacionP" id="relacionP"><br>
+                <label for="referenciaFamiliar">Referencia Familiar</label>
+                <input type="text" name="referenciaFamiliar" id="referenciaFamiliar">
+                <label for="telefonoReferenciaP">Telefono: </label>
+                <input type="tel" name="telefonoReferenciaF" id="telefonoReferenciaF">
+                <label for="relacionF">Relacion: </label>
+                <input type="text" name="relacionF" id="relacionF"> <br>
+            </div>
+            <div id="historialMascotas">
+                <h2>Historial de mascotas</h2>
+                <label for="mascotas_actuales">¿Actualmente tiene otras mascotas?</label>
+                <input type="radio" id="si_mascotas_actuales" name="mascotas_actuales" value="si"> Sí
+                <input type="radio" id="no_mascotas_actuales" name="mascotas_actuales" value="no"> No<br>
+            </div>
+            <div id="razonesAdoptar">
+                <h2>Razones para adoptar</h2>
+                <textarea name="razonAdoptar" id="razonAdoptar" cols="100" rows="10"></textarea>
+            </div>
+        </div>
+
+        <div id="divFooter">
+            <p>
+                Los Belicones
+            </p>
+        </div>
+
+    </div> 
+    </form>
+</body>
+</html>

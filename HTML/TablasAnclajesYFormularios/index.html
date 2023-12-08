@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>HTML Advance</title>
+</head>
+<body>
+    <h1 id="iduno">Ejemplo de tabla</h1>
+    <!--Las tablas son un conjunto estructurado de datos, compuesto por filas y columnas-->
+
+    <caption> Tabla de Nombres </caption> <!--Caption representa un título descriptivo de una tabla-->
+    <br>
+    <br>
+
+    <table border="1"> <!--Crea el elemento tabla. Con el atributo border le añadimos bordes a nuestra tabla-->
+        <tr><!--Representa una fila-->
+            <th>Encabezado</th> <!--Representa las celdas de encabezado-->
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Nombre 1</td> <!--Representa la primera celda de fila-->
+            <td>Apellido2</td>
+        </tr>
+        <tr>
+            <td>Cecilia</td>
+            <td>Gavia</td>
+        </tr>
+        <tr>
+            <td>Mariana</td>
+            <td>Valladolid</td>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>Maldonado</td>
+        </tr>
+    </table>
+
+    <caption>Las equivocaciones de nuestros nombres</caption><br><br>
+    <table border="1">
+        <caption>Las equivocaciones de nuestros nombres</caption><br><br>           
+        <tr>
+            <th>Nombre Real</th>
+            <th>Nombre malito :C</th>
+        </tr>
+        <tr>
+            <td class="nombresReales">Gavia</td>
+            <td>
+                <ul>
+                    <li>Garcia</li>
+                    <li>Gabi</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="nombresReales">Kerber</td>
+            <td>
+                <ul>
+                    <li>Gerber</li>
+                    <li>querber</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="nombresReales">ruben</td>
+            <td>
+                <ul>
+                    <li>Pedro</li>
+                    <li>Roberto</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="nombresReales">Calva</td>
+            <td>
+                <ul>
+                    <li>Galva</li>   
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="nombresReales">Bolaños</td>
+            <td>
+                <ul>
+                    <li>Volaños</li>
+                    <li>Volañoz</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="nombresReales">Yonuel</td>
+            <td>
+                <ul>
+                    <li>yunuen</li>
+                    <li>Yanuel</li>
+                    <li>yandel</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="nombresReales">Marco</td>
+            <td>
+                <ul>
+                    <li>Marcos</li>
+                    <li>Mario</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="nombresReales">Fernandez</td>
+            <td>
+                <ul>
+                    <li>Hernandez</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="nombresReales">Avila</td>
+            <td>
+                <ul>
+                    <li>Davila</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table border="1">
+        <thead> <!--Ésta etiqueta agrupa los elementos de la cabecera de la tabla-->
+            <tr>
+                <th colspan="3"> Encabezado de tablas </th> <!--Expande las celdas de datos de encabezados al número de columnas que deseamos que ocupen-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Esta etiqueta agrupa los elementos de contenido en la tabla-->
+                <td>El cuerpo de la tabla</td>
+                <td>Con 2 columnas</td>
+                <td>Columna</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Piesitos</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <h1 id="anclajes">Anclajes: Interno y Externo</h1>
+    <br>
+    <a href="#seccion1">¿Adoptar una mascota? Tome en cuenta sus gastos</a>
+    <br>
+    <a href="#seccion2">Antes de llevar a un peludito a casa, debe tener en mente que es una responsabilidad monetaria a largo plazo y que ellos se merecen que les demos una vida digna.</a>
+    <br>
+    <a href="#seccion3">¿Cuánto cuesta mantener una mascota?</a>
+    <br>
+    <a href="#seccion4">Dueño responsable</a>
+
+    <h2 id="seccion1">¿Adoptar una mascota? Tome en cuenta sus gastos</h2>
+    <br>
+    <img src="https://www.eleconomista.com.mx/__export/1650592718322/sites/eleconomista/img/2022/04/21/grafico_eleconomista_mexico_finanzas_personales_adopcion_de_mascotas_consejos.png_1947833983.png" alt="Referencia" width="400px">
+    <br>
+    <h4 id="seccion2">Antes de llevar a un peludito a casa, debe tener en mente que es una responsabilidad monetaria a largo plazo y que ellos se merecen que les demos una vida digna.</h4>
+    <p>Las organizaciones protectoras de animales siempre recomiendan tomar en cuenta que el adoptar una mascota representa una responsabilidad por muchos años, pero lo que también debemos tomar en cuenta antes de adoptar es el hecho de que esta responsabilidad también representa un gasto.
+        Según cifras de MSD Salud Animal México, aproximadamente 57% de las familias tiene una mascota, de las cuales, 15% tiene al menos un gato, mientras que 9.6 millones de perros forman parte de una familia.
+        
+        Durante la pandemia de Covid-19 hubo un incremento de 41% en la búsqueda de adopción de mascotas, debido a que durante el confinamiento muchas personas sufrieron altos niveles de estrés y ansiedad.
+        
+        Varios estudios han comprobado que el tener una mascota en casa tiene beneficios tanto físicos como emocionales, pero ellos también tienen necesidades, por lo que debemos ver por su alimentación, salud, diversión, accesorios, aseo, etc., lo cual podría repercutir en nuestro bolsillo.</p>
+    <br>    
+    <h3 id="seccion3">¿Cuánto cuesta mantener una mascota?</h3>
+    <p>El gasto de una mascota dependerá de muchos factores, principalmente la talla del animalito, ya que un perro de talla pequeña no come ni tiene las mismas necesidades que uno de talla grande, por ello antes de adoptar debemos determinar a qué tipo de mascota podemos darle una vida digna.
+
+        Un sondeo realizado por la plataforma de servicios financieros Coru.com y la empresa de estudios de mercado Brad Engagment, arrojó que 45.4% de las personas gasta mensualmente menos de 1,000 pesos en sus mascotas, 41.3% gasta de 1,000 a 2,000, 9% gasta de 2,000 a 3,000 y 3% gasta más de 3,000 pesos mensuales.
+        
+        El gasto inicial ronda los 2,000 pesos, entre los accesorios y la comida que debemos comprar, como una cama, un collar, una correa, un plato, juguetes, etc.
+        
+        Si desea adoptar un gato, ellos necesitan artículos como un arenero, una pala, su cama, rascador, cepillo y corta uñas, entre otras cosas, que su costo total ronda los 3,700 pesos.
+        
+        En cuanto al alimento, dependerá de la talla del perro, pero también del tipo de alimento que decida darle a su mascota, existen costales de croquetas desde dos kilos, hasta 30 kilos y su precio en tiendas de autoservicio ronda entre 150 y 1,500 pesos.
+        
+        Normalmente un costal de 20 kilos dura alrededor de un mes en mascotas de talla mediana.
+        
+        Otro punto que hay que destacar es la salud de nuestro perrito o gatito, ya que las vacunas y las visitas al veterinario representan gran parte del gasto.
+        
+        En un inicio, las mascotas requieren de vacunas como la séxtuple para perro y cuádruple para gato, que ronda entre 300 y 500 pesos, posteriormente necesitan desparasitaciones y vacunas antirrábicas por lo menos cada año, estas rondan entre 150 y 300 pesos. </p>
+    <br>
+    <h3 id="seccion4">Dueño responsable</h3>
+    <p>El gobierno realiza campañas de vacunación y esterilización gratuitas, incluso la Facultad de Medicina Veterinaria y Zootecnia de la UNAM puso a disposición servicios de esterilización con costos de recuperación desde 650 a 1,200 pesos.
+
+
+        Además de esto, debe contemplar que su mascota necesita aseo, muchas personas optan por bañar y cepillar a su mascota ellas mismas, por lo que únicamente gastan entre 200 y 300 pesos al año, sin embargo, hay quienes prefieren llevar a sus mascotas a estéticas caninas, por lo que el servicio varía desde 100 hasta 800 pesos por servicio.
+        
+        Por otra parte, los animalitos necesitan distracciones, es por ello que habrá que comprarle algunos juguetes cuyo costo fluctúa entre 100 y 500 pesos.
+        
+        Estos son solo algunos gastos que representa el tener una mascota en casa, sin contar los imprevistos, como cuando salimos de vacaciones y debemos dejar a nuestro perro o gato con algún cuidador que cobra desde 200 hasta 800 pesos por día, o cuando se enferman y requieren de procedimientos médico.
+        
+        De acuerdo a todo lo anterior, una persona podría gastar entre 15,000 y 25,000 pesos al año en mantener a una mascota con sus necesidades básicas; esto varía, ya que muchos gastan un poquito más en darle lo mejor a sus mascotas, pues son un integrante más de la familia.</p>
+    
+    <a href="index.html">Regresar a inicio</a>
+    <br>
+    <a href="#anclajes">Anclajes</a>
+    <br>
+    <br>
+    <br>
+    <h2>Anclaje Externo</h2>
+    <br>
+    <h5>Referenciar un artículo dentro de otro</h5>
+    <a href="https://www.telediario.mx/comunidad/refugios-de-animales-en-guadalajara-para-adopcion" target="_blank">Refugios en GDL</a> <!--Estos anclajes enlazan a una página web diferente. El valor del atributo href es la URL completa del sitio web de destino y el identificador de la sección.-->
+    <br>
+    <h5>Anclar número telefónio</h5>
+    <a href="tel:+3335896123">Llamar a fulanito</a>
+    <br>
+    <h5>Anclaje de WhatsApp</h5>
+    <a href="https://wa.me/1234567890" target="_blank">Envíanos un mensaje a WhatsApp</a>
+    <br>
+    <h5>Anclaje de mapa</h5>
+    <a href="https://www.bing.com/maps?mepi=24%7E%7ETopOfPage%7ELargeMapLink&ty=18&q=Playa+del+Carmen%2C+Solidaridad%2C+Quintana+Roo%2C+M%C3%A9xico&satid=id.sid%3A6d7faec6-61d5-2b1b-0a56-14218d8efbf5&vdpid=5549298537646260225&mb=20.7094%7E-87.114044%7E20.599859%7E-87.021545&ppois=20.654629707336426_-87.06779479980469_Playa+del+Carmen%2C+Solidaridad%2C+Quintana+Roo%2C+M%C3%A9xico_%7E&cp=20.654631%7E-86.897049&v=2&sV=1&FORM=MIRE&qpvt=playa+del+carmen+ubicaci%C3%B3n&lvl=11.0" target="_blank">Ver ubicación a la playa</a>
+    <br>
+    <h5>Anclaje de redes sociales</h5>
+    <a href="https://www.facebook.com/VegattosMx/" target="_blank">Facebook de Vegattos</a>
+    <br>
+    <hr>
+    <br>
+    <h1>Formularios y tipos de entrada</h1>
+    <form action="procesar_formulario" method="post"></form>
+    <!--La etiqueta form se utiliza para crear un formulario en HTML que permite a los usuarios ingresar información
+    EL action especifica a la URL a la que se enviarán los datos del formulario-->
+    <!--EL method defineel método http que e utilizará para enviar los datos (puede ser get o post)-->
+    <br>
+    <h4>La etiqueta input</h4> <!--La etiqueta input se utiliza para crear campos de entrada enun formulario -->
+    <input type="text" name="Usuario" placeholder="Escribe tu nombre">
+    <br>
+    <input type="password" name="Contraseña" placeholder="Escribe tu contraseña"> <!-- type: Define el tipo de entrada (texto, contraseña, correo electrónico, etc.).
+    name: Es el nombre del campo, utilizado para identificar el dato cuando se envía el formulario.
+    placeholder: Proporciona un texto de ejemplo dentro del campo de entrada. -->
+    <br>
+    <br>
+    <h4>Etiqueta Label</h4> <!--La etiqueta Label se utiliza para etiquetar un elemento de entrada en un formulario, lo que mejora la accesibilidad y la experiencia del usuario-->
+    <label for="usuario">Usuario: <!--for es un atributo que se asocia con el id de un elemento de entrada para indicar a qué campo se refiere-->
+    <input type="text" id="usuario" name="usuario">
+    </label>
+    <br>
+    <h4>Etiqueta button</h4> <!--Esta etiqueta se utiliza oara crear botones en un formulario que los usuarios pueden usar para hacer click y enviar información-->
+    <button type="submit" >Enviar</button>
+    <button type="reset">Reset</button>
+    <!--Type define el tipo de botón que agregamos-->
+    <br>
+    <h4>Área de texto</h4>
+    <textarea name="comentatios" id="comentarios" cols="30" rows="10" placeholder="Ponga sus comentarios"></textarea>
+    <br>
+    <h4>Número (Edad)</h4> <!--Este tipo de entrada crea un campo de entrada para números-->
+    <input type="number" name="number" placeholder="Cuál es tu edad?">
+    <br>
+    <h4>Correo electrónico</h4>
+    <input type="email" name="email" placeholder="Escribe tu correo electrónico">
+    <br>
+    <h4>Número telefónico</h4>
+    <input type="tel" name="teléfono" placeholder="Ingresa tu número telefónico">
+    <br>
+    <h4>Fecha (date)</h4>
+    <input type="date" name="fecha">
+    <br>
+    <h4>Hora (time)</h4>
+    <input type="time" name="hora">
+    <br>
+    <h4>Archivo (file)</h4>
+    <input type="file" name="archivo">
+    <br>
+    <br>
+    <a href="index.html">Regresar a inicio</a>
+    <br>
+    <br>
+    <hr>
+
+    <h1>Formulario de Adopción de Mascotas CHATGPT</h1>
+<form action="/submit_form" method="post">
+  
+  <h2>Información Personal</h2>
+  <label for="nombre">Nombre completo:</label>
+  <input type="text" id="nombre" name="nombre" required><br><br>
+
+  <label for="direccion">Dirección:</label>
+  <input type="text" id="direccion" name="direccion" required><br><br>
+
+  <label for="telefono">Teléfono:</label>
+  <input type="tel" id="telefono" name="telefono" required><br><br>
+
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="edad">Edad:</label>
+  <input type="number" id="edad" name="edad" required><br><br>
+
+  <!-- Información sobre la vivienda -->
+  <h2>Información sobre la Vivienda</h2>
+  <label for="tipo_vivienda">Tipo de vivienda:</label>
+  <input type="text" id="tipo_vivienda" name="tipo_vivienda" required><br><br>
+
+  <label for="propietario_inquilino">¿Es propietario o inquilino?</label>
+  <input type="text" id="propietario_inquilino" name="propietario_inquilino" required><br><br>
+
+  <label for="tamano_vivienda">Tamaño del espacio habitable (metros cuadrados):</label>
+  <input type="number" id="tamano_vivienda" name="tamano_vivienda" required><br><br>
+
+  <!-- Historial de mascotas -->
+  <h2>Historial de Mascotas</h2>
+  <label for="mascotas_actuales">¿Actualmente tiene otras mascotas?</label>
+  <input type="radio" id="si_mascotas_actuales" name="mascotas_actuales" value="si"> Sí
+  <input type="radio" id="no_mascotas_actuales" name="mascotas_actuales" value="no"> No<br><br>
+
+  <label for="experiencia_mascotas">¿Ha tenido mascotas en el pasado?</label>
+  <input type="radio" id="si_experiencia_mascotas" name="experiencia_mascotas" value="si"> Sí
+  <input type="radio" id="no_experiencia_mascotas" name="experiencia_mascotas" value="no"> No<br><br>
+
+  <!-- Estilo de vida y compromiso -->
+  <h2>Estilo de Vida y Compromiso</h2>
+  <label for="tiempo_solo_mascota">¿Cuánto tiempo pasaría la mascota sola durante el día?</label>
+  <input type="text" id="tiempo_solo_mascota" name="tiempo_solo_mascota" required><br><br>
+
+  <label for="tiempo_dedicado_mascota">¿Cuánto tiempo planea dedicarle a la mascota diariamente?</label>
+  <input type="text" id="tiempo_dedicado_mascota" name="tiempo_dedicado_mascota" required><br><br>
+
+  <!-- Conocimientos sobre la especie y cuidado -->
+  <h2>Conocimientos sobre la Especie y Cuidado</h2>
+  <label for="conocimientos_especie">¿Está informado sobre las necesidades específicas de esa especie?</label>
+  <textarea id="conocimientos_especie" name="conocimientos_especie" rows="4" cols="50" required></textarea><br><br>
+
+  <!-- Motivación para adoptar -->
+  <h2>Motivación para Adoptar</h2>
+  <label for="motivacion_adopcion">¿Por qué quiere adoptar una mascota?</label>
+  <textarea id="motivacion_adopcion" name="motivacion_adopcion" rows="4" cols="50" required></textarea><br><br>
+
+  <!-- Referencias -->
+  <h2>Referencias</h2>
+  <label for="veterinario_referencia">Nombre y contacto del veterinario de confianza:</label>
+  <input type="text" id="veterinario_referencia" name="veterinario_referencia" required><br><br>
+
+  <!-- Acuerdo de Adopción -->
+  <h2>Acuerdo de Adopción</h2>
+  <label for="acuerdo">Confirmo que estoy de acuerdo con los términos de adopción:</label>
+  <input type="checkbox" id="acuerdo" name="acuerdo" required><br><br>
+
+  <input type="submit" value="Enviar">
+</form>
+<br>
+<br>
+<hr>
+
+
+
+</body>
+</html>

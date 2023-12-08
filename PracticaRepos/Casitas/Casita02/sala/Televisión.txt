@@ -1,0 +1,4 @@
+hola, este es mi primer archivo creado en git bash
+otro comentario
+tercera linea de mensaje
+cuarta linea de mensaje

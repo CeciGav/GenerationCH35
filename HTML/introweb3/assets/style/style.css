@@ -1,0 +1,33 @@
+p {
+background-color: blue;
+}
+
+#Rey {
+    color: blueviolet;
+}
+
+#Rene {
+    color: aqua;
+}
+
+.CH35 {
+    color: beige;
+}
+
+/* así se poenen comments aquí c: */
+
+div {
+    width: 200;
+    height: 200;
+    margin: 20px 50px;
+    padding: 30px;
+    border: solid white;
+}
+
+.one {
+    width: 200;
+    height: 200;
+    margin: 20px 50px;
+    padding: 30px;
+    border: solid pink;
+}
