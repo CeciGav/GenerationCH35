@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+:root {
+    --letra: 'Monserrat';
+} /*NO LO HICE BIEN*/
+
+
 body, html {
     height: 100%;
     width: 100%;
@@ -23,27 +28,43 @@ body {
 }
 
 .contenedor-izquierdo {
+    display: flex;
     background-color: white;
     width: 55%;
     height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .CajaContenedora {
     border: 1px solid black; /*BORRAR LUEGO*/
     display: flex;
-    margin-left: 20%;
-    margin-top: 9%;
     width: 60%;
     height: 80%;
 }
 
-.título {
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: 0em;
-    text-align: left;
+.titulo, .CajaContenedora {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60%;
+    margin-top: 10%;
+    height: fit-content;
+}
+
+.cuentas {
+    /*empezar aquí*/
+}
+
+.gugul, .apple {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 17px;
+    border-radius: 10px;
+    height: 50px;
 }
 
 .contenedor-derecho {
