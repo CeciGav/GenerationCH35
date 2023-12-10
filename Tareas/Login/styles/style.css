@@ -41,30 +41,68 @@ body {
     display: flex;
     width: 60%;
     height: 80%;
+    justify-content: center;
+    align-items: center;
 }
 
-.titulo, .CajaContenedora {
+.cajaMargen {
+    /* border: 1px solid black; BORRAR LUEGO */
+    height: 85%;
+    width: 83%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .titulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60%;
-    margin-top: 10%;
-    height: fit-content;
+    height: 10%;
 }
 
 .cuentas {
-    /*empezar aquí*/
-}
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    display: inline-flex;
+    height: fit-content;
+    width: 100%;
+    }
 
 .gugul, .apple {
-    display: inline-flex;
-    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
-    border-radius: 10px;
     height: 50px;
+    border: 1px solid rgb(87, 86, 86);
+    border-radius: 7%;
+    padding: 2px;
+    align-items: center;
+    display: flex;
+}
+
+#googleIcon {
+    height: 35px;
+    width: 30px;
+}
+
+#appleIcon {
+    height: 35px;
+    width: 30px;
+}
+
+.or {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.rallita {
+    background-color: black;
+    width: 40%;
+    height: 1px;
 }
 
 .contenedor-derecho {
