@@ -4,7 +4,7 @@
 }
 
 :root {
-    --letra: 'Monserrat';
+    --letra: 'Monserrat', Verdana;
 } /*NO LO HICE BIEN*/
 
 
@@ -14,9 +14,10 @@ body, html {
 }
 
 body {
+    font-family: var(--letra);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .general {
@@ -37,7 +38,8 @@ body {
 }
 
 .CajaContenedora {
-    border: 1px solid black; /*BORRAR LUEGO*/
+    border: 1px solid rgb(255, 255, 255); /*BORRAR LUEGO*/
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
     display: flex;
     width: 60%;
     height: 80%;
@@ -46,7 +48,7 @@ body {
 }
 
 .cajaMargen {
-    /* border: 1px solid black; BORRAR LUEGO */
+    /* border: 1px solid black;  */
     height: 85%;
     width: 83%;
     display: flex;
@@ -57,7 +59,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--letra);
     font-size: 60%;
     height: 10%;
 }
@@ -72,14 +74,15 @@ body {
     }
 
 .gugul, .apple {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--letra);
     font-size: 17px;
     height: 50px;
     border: 1px solid rgb(87, 86, 86);
     border-radius: 7%;
-    padding: 2px;
+    padding: 3%;
     align-items: center;
     display: flex;
+    margin-top: 10px;
 }
 
 #googleIcon {
@@ -96,7 +99,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 21px;
+    font-family: var(--letra);
 }
 
 .rallita {
@@ -104,6 +108,56 @@ body {
     width: 40%;
     height: 1px;
 }
+
+/* .placeholders {
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#email {
+    width: 80%;
+    height: 25px;
+    border-radius: 5%;
+    color: rgb(87, 86, 86);
+}
+
+.contra {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+#contra {
+    width: 80%;
+    height: 25px;
+    border-radius: 5%;
+    color: rgb(87, 86, 86);
+}
+
+.login {
+    background-color: rgb(196, 134, 255);
+    color: whitesmoke;
+    height: 25px;
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.last{
+    display: flex;
+    color: rgb(146, 27, 182);
+    align-self: flex-end;
+    margin-top: 25px;
+}
+
 
 .contenedor-derecho {
     background-color: rgb(189, 138, 255);
