@@ -98,3 +98,5 @@ while(num1 < 10) {
     num1 ++
     console.log ("El número es " + num1);
 }
+
+
