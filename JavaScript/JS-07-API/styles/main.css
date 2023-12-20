@@ -25,3 +25,7 @@ button:hover {
     color:#F2F2EB;
     border: none;
 }
+
+#mensaje, #store{
+    text-align: center;
+}
